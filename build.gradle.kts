@@ -23,7 +23,10 @@ gradlePlugin {
 
 repositories {
     mavenCentral()
+    maven { url = uri("https://jitpack.io") }
 }
+
+
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.22")
